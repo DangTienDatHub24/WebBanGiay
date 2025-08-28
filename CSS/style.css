@@ -1,0 +1,359 @@
+/* body,
+header .navbar {
+  background-color: #202126 !important;
+}  */
+
+#mau1{
+  background-color: #202126 ;
+   min-height: 100%;
+}
+
+
+
+header,
+header .navbar,
+header .container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item :hover {
+  color: yellow;
+}
+
+.main-content{
+  margin-top: 50px;
+}
+
+#phanAnhGiay{
+  display: flex;
+  gap: 50px;
+  max-width: 1600px;
+  justify-content: flex-end;
+}
+
+.col-4 img{
+  height: 15cm;
+  width: 450px;
+}
+
+.col-3 {
+  height: 15cm;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.col-3 .row {
+  height: 50%;
+}
+.col-3 .row img {
+  height: 100%;
+  width: 500px;
+  
+}
+
+.col-4 img, .col-3 .row img{
+  border-radius: 25px;
+}
+
+#phanDuoiAnh{
+  color: white;
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#phanDuoiAnh .col{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #10131a;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#phanDuoiAnh span{
+  color: yellow;
+}
+
+#quanTamHangDau{
+  margin-top: 70px;
+}
+
+#quanTamHangDau .textQuanTamHangDau{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#quanTamHangDau img{
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+  background-color: #10131a;
+  border-radius: 10px;
+}
+
+#quanTamHangDau .row{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#quanTamHangDau span{
+  color: white; 
+}
+
+#quanTamHangDau .col-2 div {
+  text-align: center;
+}
+
+.textHotDeals{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contentHotDeals{
+  display: flex;
+}
+
+#contentHotDeals img{
+  width: 270px;
+}
+
+.gia-moi{
+  color: rgb(233, 233, 48);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.gia-cu{
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.tenGiayHotDeals{
+  width: 288px;
+  color: white;
+  font-weight: bold;
+}
+
+#hangMoiVe{
+display: flex;
+gap: 35px;
+margin-top: 50px;
+}
+
+#hangMoiVe img{
+  height: 100px;
+  width: 230px;
+}
+
+#hangMoiVe a{
+  text-decoration: none;
+}
+
+.titleHangMoiVe{
+  color: white;
+  margin-top: 30px;
+}
+
+.textHangMoi{
+  font-weight: 600 !important;
+  width: 230px;
+
+}
+
+#mau2{
+  background-color: #171821;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+h2{
+  text-align: center;
+}
+
+#banDangTim span{
+  font-weight: 600;
+}
+#banDangTim .col{
+  text-align: center;
+
+}
+
+#camKet {
+  background-color: #202126;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+
+
+#camKet .col {
+  display: flex;
+  align-items: center;
+  background-color: #18141c;
+  border-radius: 8px;
+  padding: 15px;
+  gap: 15px;
+  color: #fff;
+  
+}
+
+#camKet .col div:last-child{
+  font-size: 15px;
+  width: 160px;
+  font-weight: 500;
+}
+
+
+#camKet img {
+  width: 65px;
+  height: 65px;
+}
+
+#camKet span {
+  font-size: 17px;
+  
+}
+
+footer{
+  background-color: #18141c;
+  padding-top: 200px;
+
+}
+
+#mau3{
+  background-color: #202126;
+  padding-top: 30px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+/* .Sales-button{
+  background-color: yellow;
+  width: 170px; 
+  color: black;
+   padding:10px;
+   padding-left: 20px;
+   border-radius: 10px;
+   font-weight: 700;
+   font-size: 15px;
+   position: relative;
+   left: 29cm; 
+   bottom: 45px;
+   
+} */
+
+.keo-header {
+  display: flex;
+  justify-content: center;       
+  align-items: center;         
+  position: relative;
+}
+
+.keo-title {
+  font-size: 32px;
+  color: white;
+  /* margin: 0 auto;                 */
+}
+
+.sales-button {
+  position: absolute;
+  right: 0;                   
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .sales-button {
+    display: none;
+  }
+}
+
+#keoNgonCarousel img{
+  width: 240px;
+}
+
+#keoNgonCarousel .col div:last-child{
+  margin-top: 10px;
+}
+
+.textKeoNgon{
+  font-weight: 600 !important;
+  width: 223px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.carousel-control-prev {
+  left: -80px; /* đẩy nút ra ngoài bên trái */
+}
+
+.carousel-control-next {
+  right: -80px; /* đẩy nút ra ngoài bên phải */
+}
+
+#thuongHieu img{
+  width: 150px;
+  height: 150px;
+}
+
+#tinTuc img{
+  width: 400px;
+  height: 250px;
+  border-radius: 30px;
+  transition: transform 0.6s ease;
+}
+
+#tinTuc img:hover{
+  transform: scale(1.2);
+}
+
+
+.tinTucTitle .tieuDe{
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+   line-height: 1.6;
+  max-height: 1.6em; 
+  overflow: hidden;
+}
+
+.contentChinh-ttuc {
+  width: 90%;
+  /* text-align: justify; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 15px;
+}
